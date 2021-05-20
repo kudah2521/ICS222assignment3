@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENQUIRIES</title>
+    <link rel="stylesheet" href="./enqry.css">
+    <script type="text/javascript">
+        function validate() {
+            var username = document.getElementById('USERNAME');
+            var numb = document.getElementById('NUMBER');
+            var email = document.getElementById('EMAIL')
+
+            if (username.value == "" || numb.value == "" || email.value == "") {
+                alert("FILL IN THE BLANK FIELDS");
+            } else {
+
+            }
+
+        }
+    </script>
+</head>
+
+<body style="background-color: beige; justify-content: center; align-items: center ;" class="form">
+    <h3 style="text-align: center;">SEND US YOUR ENQUIRIES</h3>
+    <form>
+        <div class="response">
+			
+			
+           <label id="username" for="name">Name                   :</label>
+            <input type="text" name="username" placeholder="Enter Name" required><br>
+			
+            <label for="number">Number :</label>
+            <input id="number" type="text" name="num" placeholder="Enter Number"><br>
+			
+            <label for="username">Email                   :</label>
+            <input id="email" type="email" name="email" placeholder="kudah@gmail.com" required><br>
+			
+            <div class="enqry">
+                <label for="username">Enquiry                   :</label><br>
+                <textarea class="area" name="response" rows="" cols="30"></textarea><br>
+
+            </div>
+            <input id="go" onclick="validate()" type="submit">
+
+        </div>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+.enqry {
+    text-overflow: inherit;
+    display: flex
+}
+
+label {
+    padding-right: 3rem;
+}
+
+.form {
+    border: 2px solid #000000;
+    max-width: 50%;
+    margin: 1rem 0rem 0rem 8rem;
+}
+
+#go{
+	margin-top: 20px;
+	margin-left: 300px;
+}
+.area{
+	margin-left: 140px;
+}
+#number{
+	margin-left: 136px;
+}
+input {
+    border: 3px solid rgb(243, 143, 50);
+}
+
+.response {
+    border: 3px solid rgb(24, 23, 21);
+	position: relative;
+	margin-left: 0px;
+}
+
+.yf {
+    padding: 1rem;
+}
+
+input{
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+
+
+label{
+	
+}
